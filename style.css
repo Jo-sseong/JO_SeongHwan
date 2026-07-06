@@ -78,10 +78,33 @@ a:hover {
     margin-bottom: var(--spacing-xl);
 }
 
-.affiliation {
-    font-size: 1.1rem;
+.profile-figure {
+    margin: 0 0 var(--spacing-md);
+    text-align: center;
+}
+
+.profile-image {
+    width: min(100%, 260px);
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.profile-figure figcaption {
+    margin-top: var(--spacing-xs);
+    font-size: 0.85rem;
     color: var(--color-text-light);
-    margin-bottom: var(--spacing-sm);
+    line-height: 1.5;
+}
+
+.role {
+    margin-top: -0.25rem;
+    margin-bottom: var(--spacing-md);
+    font-size: 1rem;
+    color: var(--color-text-light);
+    font-weight: 500;
 }
 
 .bio {
@@ -158,6 +181,15 @@ a:hover {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
+.project-thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: var(--spacing-md);
+    object-fit: cover;
+    display: block;
+}
+
 .project-title {
     font-size: 1.1rem;
     font-weight: 600;
@@ -197,25 +229,6 @@ a:hover {
 .project-links a:hover {
     background-color: #f5f5f5;
     border-color: var(--color-link);
-}
-
-/* Other Section */
-.other-section {
-    margin-bottom: var(--spacing-xl);
-}
-
-.other-section ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.other-section li {
-    padding: var(--spacing-xs) 0;
-}
-
-.other-section a {
-    display: inline-block;
-    padding: var(--spacing-xs) 0;
 }
 
 /* Footer */
@@ -275,8 +288,8 @@ footer {
         font-size: 1.1rem;
     }
 
-    .affiliation {
-        font-size: 1rem;
+    .profile-image {
+        width: min(100%, 220px);
     }
 
     .bio {
@@ -299,6 +312,6 @@ footer {
 
     .project-links a {
         font-size: 0.85rem;
-        padding: var(--spacing-xs) var(--spacing-xs);
+        padding: var(--spacing-xs);
     }
 }
