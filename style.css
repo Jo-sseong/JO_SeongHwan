@@ -122,20 +122,22 @@ a:hover {
 /* Contact Info */
 .contact-info {
     margin-top: var(--spacing-sm);
-    margin-bottom: var(--spacing-xl);
-    font-size: 1rem;
+    margin-bottom: 0.1rem;
+    font-size: 0.95rem;
     line-height: 1.35;
+    color: var(--color-text);
 }
 
 .contact-title {
-    color: #4a6fae;
-    font-size: 1.1rem;
+    color: var(--color-text);
+    font-size: inherit;
     font-weight: 700;
     margin-right: 0.35rem;
 }
 
 .contact-info a {
     color: #003b8f;
+    font-size: inherit;
     font-weight: 500;
 }
 
@@ -150,9 +152,28 @@ a:hover {
 }
 
 .contact-email {
-    margin-top: -2.5rem;
+    margin-top: 0;
     margin-bottom: var(--spacing-xl);
     font-size: 0.95rem;
+    line-height: 1.35;
+    color: var(--color-text);
+}
+
+.contact-email strong {
+    color: var(--color-text);
+    font-size: inherit;
+    font-weight: 700;
+}
+
+.contact-email a {
+    color: var(--color-text);
+    font-size: inherit;
+    font-weight: 400;
+}
+
+.contact-email a:hover {
+    color: var(--color-text);
+    text-decoration: underline;
 }
 
 /* News Section */
@@ -278,16 +299,12 @@ footer {
 
     .contact-info {
         font-size: 0.95rem;
-        line-height: 1.5;
-    }
-
-    .contact-title {
-        font-size: 1.05rem;
+        line-height: 1.45;
     }
 
     .contact-email {
-        margin-top: -2rem;
-        font-size: 0.9rem;
+        font-size: 0.95rem;
+        line-height: 1.45;
     }
 
     .research-list {
@@ -332,16 +349,12 @@ footer {
 
     .contact-info {
         font-size: 0.9rem;
-        line-height: 1.6;
-    }
-
-    .contact-title {
-        font-size: 1rem;
+        line-height: 1.5;
     }
 
     .contact-email {
-        margin-top: -1.75rem;
         font-size: 0.9rem;
+        line-height: 1.5;
     }
 
     .news-list li {
