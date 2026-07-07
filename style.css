@@ -374,3 +374,60 @@ footer {
         font-size: 0.9rem;
     }
 }
+
+/* Final Contact Info Override */
+.intro-section .contact-info {
+    margin-top: var(--spacing-sm);
+    margin-bottom: 0.1rem;
+    font-size: 0.95rem;
+    line-height: 1.35;
+    color: var(--color-text);
+}
+
+.intro-section .contact-info .contact-title {
+    color: var(--color-text);
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-right: 0.35rem;
+}
+
+.intro-section .contact-info a {
+    color: #003b8f;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.intro-section .contact-info a:hover {
+    color: var(--color-link-hover);
+    text-decoration: underline;
+}
+
+.intro-section .contact-separator {
+    margin: 0 0.25rem;
+    color: var(--color-text);
+}
+
+.intro-section .contact-email {
+    margin-top: 0;
+    margin-bottom: var(--spacing-xl);
+    font-size: 0.95rem;
+    line-height: 1.35;
+    color: var(--color-text);
+}
+
+.intro-section .contact-email strong {
+    color: var(--color-text);
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.intro-section .contact-email a {
+    color: var(--color-text);
+    font-size: 0.95rem;
+    font-weight: 400;
+}
+
+.intro-section .contact-email a:hover {
+    color: var(--color-text);
+    text-decoration: underline;
+}
