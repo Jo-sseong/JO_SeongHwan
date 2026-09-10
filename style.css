@@ -350,18 +350,6 @@ a:hover {
     margin-top: var(--spacing-xs);
 }
 
-.certifications-box {
-    margin-top: var(--spacing-sm);
-    padding: 0.75rem;
-    border: 1px solid var(--color-border);
-    border-radius: 6px;
-}
-
-.certifications-box h2 {
-    margin-top: 0;
-    font-size: 1.1rem;
-}
-
 #awards .record-list {
     gap: 0.6rem;
 }
@@ -379,7 +367,6 @@ a:hover {
     line-height: 1.45;
 }
 
-.award-details,
 .experience-details {
     list-style: none;
     display: grid;
@@ -387,11 +374,6 @@ a:hover {
     padding-left: 0.75rem;
     margin-top: 0.4rem;
     border-left: 1px solid var(--color-border);
-}
-
-.award-details h4 {
-    font-size: 0.875rem;
-    font-weight: 600;
 }
 
 .experience-group + .experience-group {
