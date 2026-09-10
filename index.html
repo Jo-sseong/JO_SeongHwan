@@ -74,23 +74,64 @@
             </ul>
         </section>
 
+        <!-- 프로젝트 -->
+        <section id="research">
+            <h2>Projects</h2>
+
+            <div id="project-list" class="research-list">
+                <article class="research-item">
+                    <div class="research-thumb">
+                        <img src="assets/ascii-art-tesk.png" alt="ASCII Art 기반 이미지 생성 구조 제어 연구">
+                    </div>
+
+                    <div class="research-content">
+                        <h3>ASCII Art 기반 이미지 생성 구조 제어 연구</h3>
+                        <p class="research-period">2025.09 - 현재</p>
+                        <p class="project-summary">ASCII Art를 활용해 이미지 생성의 구조를 제어하는 연구입니다.</p>
+                    </div>
+                </article>
+
+                <article class="research-item">
+                    <div class="research-thumb">
+                        <img src="assets/spectrum-sensing.png" alt="인공지능 스펙트럼 센싱 시스템 설계 및 구현">
+                    </div>
+
+                    <div class="research-content">
+                        <h3>인공지능 스펙트럼 센싱 시스템 설계 및 구현</h3>
+                        <p class="research-period">2025.02 - 2025.09</p>
+                        <p class="project-summary">인공지능 기반 스펙트럼 센싱 시스템을 설계하고 구현한 프로젝트입니다.</p>
+
+                        <div class="research-links">
+                            [<a href="https://d2j16w31g89z0j.cloudfront.net/site/2026w/abs/0867-ZRFQI.pdf" target="_blank" rel="noopener noreferrer">Paper</a>]
+                            [<a href="https://jo-sseong.github.io/ai-lpi-detector/" target="_blank" rel="noopener noreferrer">Page</a>]
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <button id="projects-toggle" class="projects-toggle" type="button" aria-expanded="false" aria-controls="project-list" hidden>모두 보기</button>
+        </section>
+
         <!-- 학력 및 수상 -->
         <div class="background-grid">
-            <section id="education" aria-labelledby="education-title">
-                <h2 id="education-title">Education</h2>
-                <div class="record">
-                    <h3>한밭대학교</h3>
-                    <p>인공지능소프트웨어학과 · 학부 졸업</p>
-                    <p class="record-meta">2026.08.21 졸업</p>
-                    <p class="gpa">GPA <strong>4.09 / 4.5</strong></p>
-                </div>
-
-                <h3 class="subsection-title">Certifications</h3>
-                <div class="record">
-                    <p>정보처리기사</p>
-                    <p class="record-meta">2025.10 취득</p>
-                </div>
-            </section>
+            <div class="education-column">
+                <section id="education" aria-labelledby="education-title">
+                    <h2 id="education-title">Education</h2>
+                    <div class="record">
+                        <h3>한밭대학교</h3>
+                        <p>인공지능소프트웨어학과 · 학부 졸업</p>
+                        <p class="record-meta">2026.08.21 졸업</p>
+                        <p class="gpa">GPA <strong>4.09 / 4.5</strong></p>
+                    </div>
+                </section>
+    
+                <section id="certifications" class="certifications-box" aria-labelledby="certifications-title">
+                    <h2 id="certifications-title">Certifications</h2>
+                    <div class="record">
+                        <p>정보처리기사</p>
+                        <p class="record-meta">2025.10 취득</p>
+                    </div>
+                </section>
+            </div>
 
             <section id="awards" aria-labelledby="awards-title">
                 <h2 id="awards-title">Awards</h2>
@@ -151,61 +192,37 @@
                 <p class="record-meta">JOK · 2026.07 제출 <span class="submission-status">Submitted</span></p>
             </article>
             <article class="record">
-                <h3><a href="https://lab.hanbat.ac.kr/acelab/theses" target="_blank" rel="noopener noreferrer">가상 앵커를 이용한 효율적인 One-Shot W2A2 양자화</a></h3>
+                <div class="publication-heading">
+                    <h3>가상 앵커를 이용한 효율적인 One-Shot W2A2 양자화</h3>
+                    <a class="publication-link" href="https://lab.hanbat.ac.kr/acelab/theses/20345" target="_blank" rel="noopener noreferrer" aria-label="가상 앵커를 이용한 효율적인 One-Shot W2A2 양자화 바로가기">바로가기</a>
+                </div>
                 <p>김영동(교신), 최범영, <strong>조성환</strong>, 정의림</p>
                 <p class="record-meta">2026 동계종합학술발표회 · 2026.02</p>
             </article>
             <article class="record">
-                <h3><a href="https://lab.hanbat.ac.kr/acelab/theses?pagination.pageIndex=3" target="_blank" rel="noopener noreferrer">오토인코더와 CNN을 활용한 스펙트럼 센싱 기반 저피탐 통신 탐지 기술 개발</a></h3>
+                <div class="publication-heading">
+                    <h3>인공지능 스펙트럼 센싱 기반 실시간 저피탐 통신 탐지기 설계 및 구현</h3>
+                    <a class="publication-link" href="https://lab.hanbat.ac.kr/acelab/theses/20340" target="_blank" rel="noopener noreferrer" aria-label="인공지능 스펙트럼 센싱 기반 실시간 저피탐 통신 탐지기 설계 및 구현 바로가기">바로가기</a>
+                </div>
+                <p>정의림(교신), <strong>조성환</strong>, 최범영</p>
+                <p class="record-meta">한국통신학회 동계종합학술발표회 · 2026.02</p>
+            </article>
+            <article class="record">
+                <div class="publication-heading">
+                    <h3>오토인코더와 CNN을 활용한 스펙트럼 센싱 기반 저피탐 통신 탐지 기술 개발</h3>
+                    <a class="publication-link" href="https://lab.hanbat.ac.kr/acelab/theses/20166" target="_blank" rel="noopener noreferrer" aria-label="오토인코더와 CNN을 활용한 스펙트럼 센싱 기반 저피탐 통신 탐지 기술 개발 바로가기">바로가기</a>
+                </div>
                 <p>정의림(교신), <strong>조성환</strong>, 최범영, 한예린</p>
                 <p class="record-meta">한국통신학회 동계종합학술발표회 · 2025.02</p>
             </article>
             <article class="record">
-                <h3><a href="https://lab.hanbat.ac.kr/acelab/theses?pagination.pageIndex=3" target="_blank" rel="noopener noreferrer">군집 로봇에서 다중 센서를 장착한 앵커 노드를 이용한 거리정보 기반 DNN 상대 측위 기술</a></h3>
+                <div class="publication-heading">
+                    <h3>군집 로봇에서 다중 센서를 장착한 앵커 노드를 이용한 거리정보 기반 DNN 상대 측위 기술</h3>
+                    <a class="publication-link" href="https://lab.hanbat.ac.kr/acelab/theses/20165" target="_blank" rel="noopener noreferrer" aria-label="군집 로봇에서 다중 센서를 장착한 앵커 노드를 이용한 거리정보 기반 DNN 상대 측위 기술 바로가기">바로가기</a>
+                </div>
                 <p>정의림(교신), 최범영, <strong>조성환</strong></p>
                 <p class="record-meta">한국통신학회 동계종합학술발표회 · 2025.02</p>
             </article>
-        </section>
-
-        <!-- 연구 프로젝트 -->
-        <section id="research">
-            <h2>Main Projects</h2>
-
-            <div class="research-list">
-                <article class="research-item">
-                    <div class="research-thumb">
-                        <img src="assets/ascii-art-tesk.png" alt="ASCII Art 기반 이미지 생성 구조 제어 연구">
-                    </div>
-
-                    <div class="research-content">
-                        <h3>ASCII Art 기반 이미지 생성 구조 제어 연구</h3>
-                        <p class="research-period">2025.09 - 현재</p>
-                        <p class="project-summary">ASCII Art를 활용해 이미지 생성의 구조를 제어하는 연구입니다.</p>
-                    </div>
-                </article>
-
-                <article class="research-item">
-                    <div class="research-thumb">
-                        <img src="assets/spectrum-sensing.png" alt="인공지능 스펙트럼 센싱 시스템 설계 및 구현">
-                    </div>
-
-                    <div class="research-content">
-                        <h3>인공지능 스펙트럼 센싱 시스템 설계 및 구현</h3>
-                        <p class="research-period">2025.02 - 2025.09</p>
-                        <p class="project-summary">인공지능 기반 스펙트럼 센싱 시스템을 설계하고 구현한 프로젝트입니다.</p>
-
-                        <div class="research-links">
-                            [<a href="https://d2j16w31g89z0j.cloudfront.net/site/2026w/abs/0867-ZRFQI.pdf" target="_blank" rel="noopener noreferrer">Paper</a>]
-                            [<a href="https://jo-sseong.github.io/ai-lpi-detector/" target="_blank" rel="noopener noreferrer">Page</a>]
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <section id="side-projects" aria-labelledby="side-projects-title">
-            <h2 id="side-projects-title">Side Projects</h2>
-            <p class="record-meta">준비 중입니다.</p>
         </section>
 
         <!-- 푸터 -->
@@ -213,5 +230,19 @@
             <p>© 2026. 조성환 / JO SeongHwan.</p>
         </footer>
     </div>
+    <script>
+        const projectList = document.getElementById('project-list');
+        const projectsToggle = document.getElementById('projects-toggle');
+        const projectCount = projectList.querySelectorAll('.research-item').length;
+        projectList.classList.add('projects-collapsed');
+        projectsToggle.hidden = false;
+        projectsToggle.textContent = `모두 보기 (${projectCount})`;
+        projectsToggle.addEventListener('click', () => {
+            const expanded = projectsToggle.getAttribute('aria-expanded') !== 'true';
+            projectList.classList.toggle('projects-collapsed', !expanded);
+            projectsToggle.setAttribute('aria-expanded', String(expanded));
+            projectsToggle.textContent = expanded ? '접기' : `모두 보기 (${projectCount})`;
+        });
+    </script>
 </body>
 </html>
