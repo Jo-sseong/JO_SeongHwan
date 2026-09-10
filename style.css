@@ -229,8 +229,12 @@ a:hover {
     gap: var(--spacing-sm);
     padding: 0.18rem 0;
     line-height: 1.6;
-    color: var(--color-text);
+    color: var(--color-text-light);
     font-size: 1rem;
+}
+
+.news-list .date {
+    color: inherit;
 }
 
 .date {
